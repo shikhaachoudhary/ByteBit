@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="hib.software.beans">
+    <class name="Employee" table="employeetablee">
+    <id name="uID"/>
+    <property name="fName"/>
+    <property name="dOB"/>
+    <property name="gender"/>
+    <property name="eMail"/>
+    <property name="phoneNo"/>
+    <property name="catageory"/>
+    <property name="pswd"/>
+    </class>
+</hibernate-mapping>
